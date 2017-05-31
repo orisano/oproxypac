@@ -23,9 +23,9 @@ class ProxyPacServer {
                 "Content-Type": "application/x-ns/proxy-autoconfig"
             });
             const body = [
-                "function FindProxyForURL(url, host){",
+                "function FindProxyForURL(url, host) {",
                 this.protocols.map(x => `    if (shExpMatch(url, "${x.scheme}://*")) return "PROXY ${x.proxy}";`).join("\n"),
-                'return "DIRECT";',
+                '    return "DIRECT";',
                 "}",
             ].join("\n");
             res.end(body);
