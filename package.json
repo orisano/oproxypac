@@ -1,0 +1,22 @@
+{
+  "name": "oproxypac",
+  "version": "1.0.0",
+  "description": "proxy pac hosting server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orisano/oproxypac.git"
+  },
+  "keywords": [
+    "proxy.pac"
+  ],
+  "author": "orisano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orisano/oproxypac/issues"
+  },
+  "homepage": "https://github.com/orisano/oproxypac#readme"
+}
