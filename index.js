@@ -20,7 +20,7 @@ class ProxyPacServer {
                 return;
             }
             res.writeHead(200, {
-                "Content-Type": "application/x-ns/proxy-autoconfig"
+                "Content-Type": "application/x-ns-proxy-autoconfig"
             });
             const body = [
                 "function FindProxyForURL(url, host) {",
