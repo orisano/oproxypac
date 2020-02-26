@@ -7,7 +7,7 @@ npm install oproxypac
 ```
 
 ## Example
-'http://localhost:8081/proxy.pac'でhttp通信のみlocal ipの8080で起動しているプロキシに転送する例
+'http://localhost:8081/proxy.pac' でhttp通信のみlocal ipの8080で起動しているプロキシに転送する例
 ```js
 const os = require("os");
 const ProxyPacServer = require("oproxypac");
